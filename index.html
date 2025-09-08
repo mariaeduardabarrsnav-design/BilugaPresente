@@ -1,75 +1,142 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Minha Lista de Desejos</title>
+    <meta charset="UTF-8">
+    <title>Lista de Desejos Delicada</title>
     <style>
-        body { font-family: Arial, sans-serif; background-color: #f0f0f0; padding: 20px; }
-        h1 { color: #333; }
-        ul { list-style-type: none; padding: 0; }
-        li { margin: 20px 0; background: white; padding: 10px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        img { width: 200px; height: auto; }
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;500&family=Great+Vibes&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #ffe6f0, #fff0f5);
+            padding: 30px;
+            text-align: center;
+            color: #5a3e50;
+        }
+
+        h1 {
+            font-family: 'Great Vibes', cursive;
+            font-size: 3em;
+            color: #d63384;
+            margin-bottom: 40px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        li {
+            margin: 20px 0;
+            background: #ffffffcc;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            width: 85%;
+            max-width: 350px;
+            text-align: center;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        li:hover {
+            transform: scale(1.03);
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            color: #c2185b;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        img {
+            width: 230px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1em;
+            line-height: 1.4;
+            margin: 10px 0;
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            background: #f48fb1;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 25px;
+            transition: background 0.3s;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background: #ec407a;
+        }
+
+        /* Estilo especial para a Beluga */
+        .special-item {
+            background: #fff0f8;
+            border: 2px dashed #f48fb1;
+        }
+
+        .special-item p.title {
+            font-family: 'Great Vibes', cursive;
+            font-size: 2em;
+            color: #ff69b4;
+            margin-bottom: 10px;
+        }
+
+        .arrow {
+            font-size: 2.5em;
+            color: #6a4a5c;
+            margin-bottom: 10px;
+            display: block;
+        }
     </style>
 </head>
 <body>
-    <h1>Lista de Desejos pro Meu Namorado</h1>
+    <h1>✨ Lista de Desejos pro Meu Amor ✨</h1>
     <ul>
         <li>
             <h2>Base e Corretivo</h2>
-            <img src="https://via.placeholder.com/200?text=Base+Cor+Sand" alt="Base e Corretivo">
-            <p>Cor: Sand | Preço: R$ 25,00 (aprox.) | Link: <a href="https://shopee.com.br/product/1278941161/23097999659?gads_t_sig=VTJGc2RHVmtYMTlxTFVSVVRrdENkWHlFU0hvQlZFVENpb1FnT09uNDlDS1diZXhZK0ZmZHRKRDNOR3ZvMFVwVWV6WHoyZUdOSzlyNmdOaVdUZzlXL1BtaENwZm9NMHZXanY3ZzBGaEhpUkwvcDdLMEpnUk52REpZWFY5K3hiUjBJL3JIQjZKbWd6TE9BRnpmRCtydG1nPT0&gad_source=1&gad_campaignid=22845535888&gbraid=0AAAAACoEtRmQuIg5VKKVyk4uoFX4ElYBu&gclid=CjwKCAjw_fnFBhB0EiwAH_MfZr1dhTfN29evCaXZ75DtnI8P4Y9vCE5s1__9U9Jr0J8qnaoSS5UiYxoCDhkQAvD_BwE">Comprar aqui</a></p>
+            <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m21diyo4bxwfc2.webp" alt="Base e Corretivo">
+            <p>Cor: Sand | Preço: R$ 25,00 (aprox.)</p>
+            <a href="https://shopee.com.br/product/1278941161/23097999659">Comprar aqui</a>
         </li>
+
         <li>
-            <h2>Gloss Tint Ôlinda! Xuxuzinho Made In Melu</h2>
-            <img src="https://via.placeholder.com/200?text=Gloss+Xuxuzinho" alt="Gloss Tint">
-            <p>Cor: Xuxuzinho | Preço: R$ 37,00 (aprox., out of stock em alguns sites) | Link: <a href="https://www.melinda.com.br/gloss-tint-olinda-xuxuzinho-made-in-melu/p?srsltid=AfmBOopVVipTT7BN-7_iaFZC1WbKOvXpKOgDhV8SlNiH3ovL4870O_5M">Comprar aqui</a></p>
+            <h2>Gloss Tint Ôlinda! Xuxuzinho</h2>
+            <img src="https://cdn.awsli.com.br/800x800/2314/2314809/produto/359782441/whatsapp-image-2025-06-26-at-21-47-19--2--9v1u3xyi35.jpeg" alt="Gloss Tint">
+            <p>Cor: Xuxuzinho | Preço: R$ 37,00 (aprox.)</p>
+            <a href="https://www.melinda.com.br/gloss-tint-olinda-xuxuzinho-made-in-melu/p">Comprar aqui</a>
         </li>
+
         <li>
-            <h2>Cinta Modeladora (Treinador de Cintura)</h2>
-            <img src="https://via.placeholder.com/200?text=Cinta+Modeladora" alt="Cinta">
-            <p>Cor: N/A (ver opções no site) | Preço: R$ 25,80 (aprox.) | Link: <a href="https://shopee.com.br/Treinador-De-Cintura-Corpete-Modelador-Cinto-De-Emagrecimento-Feminino-Formato-Tummy-Postpartum-Belly-Sheath-Corrective-i.366576468.21099335218?sp_atk=1245d018-6380-40ef-b535-8436db2a0d19&xptdk=1245d018-6380-40ef-b535-8436db2a0d19">Comprar aqui</a></p>
+            <h2>Buquê de Rosas Vermelhas</h2>
+            <img src="https://i.pinimg.com/originals/58/e8/4c/58e84c7c84bd82b7bba415401026a138.webp" alt="Buquê de Rosas">
+            <p>Cor: Vermelhas | Preço: R$ 221,00 (desconto)</p>
+            <a href="https://www.mirandaflores.com.br/produto/04-bouquet-12-rosas-vermelhas-coracao-te-amo/">Comprar aqui</a>
         </li>
+
         <li>
-            <h2>Buquê 12 Rosas Vermelhas + Coração Te Amo</h2>
-            <img src="https://via.placeholder.com/200?text=Buque+Rosas" alt="Buquê de Rosas">
-            <p>Cor: Vermelhas | Preço: R$ 221,00 (desconto de R$ 243,00) | Link: <a href="https://www.mirandaflores.com.br/produto/04-bouquet-12-rosas-vermelhas-coracao-te-amo/">Comprar aqui</a></p>
+            <h2>Cinta Modeladora</h2>
+            <img src="https://hidrolight.com.br/wp-content/uploads/2024/06/imagem-modelo-mostrando-detalhe-cinta-modeladora-slim-waist.png" alt="Cinta Modeladora">
+            <p>Preço: R$ 25,80 (aprox.)</p>
+            <a href="https://shopee.com.br/Treinador-De-Cintura-Corpete-Modelador-Cinto-De-Emagrecimento-Feminino-Formato-Tummy-Postpartum-Belly-Sheath-Corrective-i.366576468.21099335218">Comprar aqui</a>
         </li>
-    </ul>
-</body>
-</html><!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <title>Minha Lista de Desejos</title>
-    <style>
-        body { font-family: Arial, sans-serif; background-color: #f0f0f0; padding: 20px; }
-        h1 { color: #333; }
-        ul { list-style-type: none; padding: 0; }
-        li { margin: 20px 0; background: white; padding: 10px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        img { width: 200px; height: auto; }
-    </style>
-</head>
-<body>
-    <h1>Lista de Desejos pro Meu Namorado</h1>
-    <ul>
-        <li>
-            <h2>Base e Corretivo</h2>
-            <img src="https://via.placeholder.com/200?text=Base+Cor+Sand" alt="Base e Corretivo">
-            <p>Cor: Sand | Preço: R$ 25,00 (aprox.) | Link: <a href="https://shopee.com.br/product/1278941161/23097999659?gads_t_sig=VTJGc2RHVmtYMTlxTFVSVVRrdENkWHlFU0hvQlZFVENpb1FnT09uNDlDS1diZXhZK0ZmZHRKRDNOR3ZvMFVwVWV6WHoyZUdOSzlyNmdOaVdUZzlXL1BtaENwZm9NMHZXanY3ZzBGaEhpUkwvcDdLMEpnUk52REpZWFY5K3hiUjBJL3JIQjZKbWd6TE9BRnpmRCtydG1nPT0&gad_source=1&gad_campaignid=22845535888&gbraid=0AAAAACoEtRmQuIg5VKKVyk4uoFX4ElYBu&gclid=CjwKCAjw_fnFBhB0EiwAH_MfZr1dhTfN29evCaXZ75DtnI8P4Y9vCE5s1__9U9Jr0J8qnaoSS5UiYxoCDhkQAvD_BwE">Comprar aqui</a></p>
-        </li>
-        <li>
-            <h2>Gloss Tint Ôlinda! Xuxuzinho Made In Melu</h2>
-            <img src="https://via.placeholder.com/200?text=Gloss+Xuxuzinho" alt="Gloss Tint">
-            <p>Cor: Xuxuzinho | Preço: R$ 37,00 (aprox., out of stock em alguns sites) | Link: <a href="https://www.melinda.com.br/gloss-tint-olinda-xuxuzinho-made-in-melu/p?srsltid=AfmBOopVVipTT7BN-7_iaFZC1WbKOvXpKOgDhV8SlNiH3ovL4870O_5M">Comprar aqui</a></p>
-        </li>
-        <li>
-            <h2>Cinta Modeladora (Treinador de Cintura)</h2>
-            <img src="https://via.placeholder.com/200?text=Cinta+Modeladora" alt="Cinta">
-            <p>Cor: N/A (ver opções no site) | Preço: R$ 25,80 (aprox.) | Link: <a href="https://shopee.com.br/Treinador-De-Cintura-Corpete-Modelador-Cinto-De-Emagrecimento-Feminino-Formato-Tummy-Postpartum-Belly-Sheath-Corrective-i.366576468.21099335218?sp_atk=1245d018-6380-40ef-b535-8436db2a0d19&xptdk=1245d018-6380-40ef-b535-8436db2a0d19">Comprar aqui</a></p>
-        </li>
-        <li>
-            <h2>Buquê 12 Rosas Vermelhas + Coração Te Amo</h2>
-            <img src="https://via.placeholder.com/200?text=Buque+Rosas" alt="Buquê de Rosas">
-            <p>Cor: Vermelhas | Preço: R$ 221,00 (desconto de R$ 243,00) | Link: <a href="https://www.mirandaflores.com.br/produto/04-bouquet-12-rosas-vermelhas-coracao-te-amo/">Comprar aqui</a></p>
+
+        <li class="special-item">
+            <p class="title">💖 A Beluga Merece 💖</p>
+            <span class="arrow">⬇️</span>
+            <img src="https://1drv.ms/i/c/51e2f209cfae121e/Eawf69u1V_xIhRlvET6JraEBbCHYe9HecYD-GrUHwN_Jzw?e=3tEcMx" alt="Foto Beluga">
         </li>
     </ul>
 </body>
 </html>
+
