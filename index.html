@@ -7,105 +7,104 @@
     <meta charset="UTF-8">
     <title>✨ Lista de Desejos pro Meu Amor ✨</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Cinzel+Decorative:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;500&family=Great+Vibes&display=swap');
 
         body {
-            font-family: 'Playfair Display', serif;
-            background: linear-gradient(to right, #fff8e1, #fffde7);
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #fce4ec, #f8bbd0, #f48fb1, #f06292);
             padding: 30px;
             text-align: center;
-            color: #a67c00;
+            color: #5a3e50;
+            background-image: url('https://w7.pngwing.com/pngs/802/825/png-transparent-redbubble-polite-cat-meme-funny-cat-meme-thumbnail.png'),
+                              url('https://i.pinimg.com/736x/37/7a/80/377a80e510c8c6440b1301bf95fa1b3d.jpg'),
+                              url('https://w7.pngwing.com/pngs/851/512/png-transparent-looking-at-the-cat-hand-painted-pet-cat.png');
+            background-repeat: repeat;
+            background-size: 80px;
         }
 
         h1 {
-            font-family: 'Cinzel Decorative', cursive;
+            font-family: 'Great Vibes', cursive;
             font-size: 3em;
-            color: #b8860b;
+            color: #d63384;
             margin-bottom: 40px;
-            text-shadow: 0 0 10px rgba(255,215,0,0.6);
         }
 
         ul {
             list-style-type: none;
             padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            justify-items: center;
         }
 
         li {
             margin: 20px 0;
             background: #ffffffcc;
             padding: 20px;
-            border-radius: 20px;
-            box-shadow: 0 4px 15px rgba(255,215,0,0.4);
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
             width: 85%;
-            max-width: 400px;
+            max-width: 350px;
             text-align: center;
             transition: transform 0.2s ease-in-out;
         }
 
         li:hover {
             transform: scale(1.03);
-            box-shadow: 0 6px 20px rgba(255,215,0,0.6);
         }
 
         h2 {
-            font-family: 'Cinzel Decorative', cursive;
-            color: #a67c00;
-            font-size: 1.6em;
+            font-family: 'Playfair Display', serif;
+            color: #c2185b;
+            font-size: 1.5em;
             margin-bottom: 15px;
-            text-shadow: 0 0 5px rgba(255,215,0,0.4);
         }
 
         img {
             width: 230px;
-            border-radius: 15px;
+            border-radius: 12px;
             margin-bottom: 15px;
-            box-shadow: 0 0 10px rgba(255,215,0,0.3);
         }
 
         p {
             font-size: 1em;
             line-height: 1.4;
             margin: 10px 0;
-            color: #8b7500;
         }
 
         a {
             display: inline-block;
             text-decoration: none;
-            background: linear-gradient(45deg, #ffd700, #fffacd);
-            color: #8b7500;
-            padding: 12px 22px;
-            border-radius: 30px;
-            transition: all 0.3s;
+            background: #f48fb1;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 25px;
+            transition: background 0.3s;
             font-weight: bold;
-            box-shadow: 0 0 12px rgba(255,215,0,0.6);
         }
 
         a:hover {
-            background: linear-gradient(45deg, #fffacd, #ffd700);
-            box-shadow: 0 0 20px rgba(255,215,0,0.9);
-            transform: scale(1.05);
+            background: #ec407a;
         }
 
         .special-item {
-            background: #fffbe6;
-            border: 2px dashed #ffd700;
+            background: #fff0f8;
+            border: 2px dashed #f48fb1;
+            grid-column: 1 / -1;
+            margin-top: 40px;
         }
 
         .special-item p.title {
-            font-family: 'Cinzel Decorative', cursive;
+            font-family: 'Great Vibes', cursive;
             font-size: 2em;
-            color: #daa520;
+            color: #ff69b4;
             margin-bottom: 10px;
-            text-shadow: 0 0 8px rgba(255,215,0,0.5);
         }
 
         .arrow {
             font-size: 2.5em;
-            color: #a67c00;
+            color: #6a4a5c;
             margin-bottom: 10px;
             display: block;
         }
@@ -141,18 +140,18 @@
             <p>Preço: R$ 25,80 (aprox.)</p>
             <a href="https://shopee.com.br/Treinador-De-Cintura-Corpete-Modelador-Cinto-De-Emagrecimento-Feminino-Formato-Tummy-Postpartum-Belly-Sheath-Corrective-i.366576468.21099335218">Comprar aqui</a>
         </li>
-        
+
         <li>
             <h2>Gel de Limpeza Principia GL-02</h2>
-            <img src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/MP204228/e5dfb5bd-9f96-475e-89a7-eae514f7be64-principia-gl02-gel-de-limpeza-facial-350g.png" alt="Gel de Limpeza Principia GL-02">
+            <img src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/MP204228/e5dfb5bd-9f96-475e-89a7-eae514f7be64-principia-gl02-gel-de-limpeza-facial-350g.png" alt="Gel de Limpeza Principia">
             <p>Preço: R$ 47,14</p>
             <a href="https://shopee.com.br/Gel-De-Limpeza-Principia-GL-02-Com-350g-i.560644869.22693697508?sp_atk=d9b5b552-fe31-43be-bff9-f15ae9ede8eb&xptdk=d9b5b552-fe31-43be-bff9-f15ae9ede8eb">Comprar aqui</a>
         </li>
 
         <li>
             <h2>Creme Calmante Multirreparador Principia CM-01</h2>
-            <img src="https://product-data.raiadrogasil.io/images/10578190.webp" alt="Creme Calmante Principia CM-01">
-            <p>Preço: N/A</p>
+            <img src="https://product-data.raiadrogasil.io/images/10578190.webp" alt="Creme Calmante Principia">
+            <p>Preço: 36,90</p>
             <a href="https://shopee.com.br/Creme-Calmante-Multirreparador-Principia-CM-01-40g-i.1045085918.23794369421?sp_atk=6949f7a0-32b1-494e-a0e8-8659f91c8806&xptdk=6949f7a0-32b1-494e-a0e8-8659f91c8806">Comprar aqui</a>
         </li>
 
